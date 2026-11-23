@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Anvil theme</title>
+<meta name="description" content="Documentation and support for the Anvil Shopify theme for hardware, tools, and industrial-supply stores.">
+<style>
+  :root { --bg: #fff; --fg: #2a2e33; --heading: #111315; --muted: #5c6370; --border: #e2e4e7; --surface: #f4f5f6; --accent: #b23c0b; --button: #f26b1d; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16181b; --fg: #d9dce0; --heading: #fff; --muted: #a2a8b1; --border: #2e3338; --surface: #1f2226; --accent: #ffb27a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  a { color: var(--accent); }
+  header { border-bottom: 1px solid var(--border); background: var(--surface); }
+  header::before { content: ''; display: block; height: 6px; background: repeating-linear-gradient(-45deg, var(--button) 0 10px, var(--heading) 10px 20px); }
+  .wrap { max-width: 72rem; margin: 0 auto; padding: 0 1rem; }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 1rem 0; }
+  .brand { font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--heading); text-decoration: none; }
+  .brand small { margin-left: 0.5rem; font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--muted); }
+  .links { display: flex; gap: 1rem; }
+  .links a { color: var(--heading); font-weight: 600; text-decoration: none; padding: 0.25rem 0; }
+  .links a[aria-current] { border-bottom: 2px solid var(--button); }
+  .layout { display: grid; gap: 2rem; padding: 2rem 0 4rem; }
+  @media (min-width: 900px) { .layout { grid-template-columns: 15rem minmax(0, 1fr); } nav.toc { position: sticky; top: 1rem; align-self: start; } }
+  nav.toc ol { margin: 0; padding-left: 1.1rem; }
+  nav.toc a { color: var(--fg); text-decoration: none; }
+  nav.toc a:hover { color: var(--accent); }
+  h1, h2, h3 { color: var(--heading); line-height: 1.2; }
+  h1 { font-size: clamp(1.8rem, 1.4rem + 2vw, 2.6rem); margin-top: 0; }
+  h2 { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+  code { padding: 0.1rem 0.35rem; border-radius: 4px; background: var(--surface); font-size: 0.9em; }
+  .table { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th { background: var(--surface); }
+  form { display: grid; gap: 1rem; max-width: 36rem; }
+  label { display: grid; gap: 0.35rem; font-weight: 600; color: var(--heading); }
+  input, select, textarea { font: inherit; padding: 0.7rem 0.8rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--fg); }
+  textarea { min-height: 9rem; }
+  button { justify-self: start; padding: 0.8rem 1.6rem; border: 0; border-radius: 6px; background: var(--button); color: #111315; font: inherit; font-weight: 700; cursor: pointer; }
+  .note { padding: 0.9rem 1rem; border-left: 4px solid var(--button); background: var(--surface); }
+  a.button { display: inline-block; padding: 0.8rem 1.6rem; border-radius: 6px; background: var(--button); color: #111315; font-weight: 700; text-decoration: none; }
+  a.button:hover { filter: brightness(0.95); }
+  a.button:focus-visible { outline: 3px solid var(--heading); outline-offset: 3px; }
+  .small { font-size: 0.9rem; color: var(--muted); }
+  footer { border-top: 1px solid var(--border); padding: 1.5rem 0; color: var(--muted); font-size: 0.9rem; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="brand" href="index.html">Anvil <small>Shopify theme · v1.0.0</small></a>
+  <nav class="links" aria-label="Site"><a href="index.html">Setup guide</a><a href="support.html" aria-current="page">Support</a></nav>
+</div></header>
+<div class="wrap layout"><div></div><main>
+  <h1>Get help with Anvil</h1>
+  <p>Check the <a href="index.html">setup guide</a> first; most questions are answered there. If you're still stuck, send us a message. We reply within two business days.</p>
+  <p><a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSd7ZCpAUYwgKC8OTvT8GNHKRpL0JkmRLHb7z36Is4UFw4OeZQ/viewform" target="_blank" rel="noopener">Open the support form</a></p>
+  <p class="small">The form opens in a new tab. You can attach a screenshot, and you get a copy of your message by email. Attaching a file needs a Google sign-in.</p>
+  <h2 id="support-policy">Support policy</h2>
+  <p>We help with setting up Anvil's features and settings, bugs in the theme's own code, and questions about the documentation. We can't help with custom code changes, third-party apps, or problems caused by edits to the theme's code.</p>
+  <p>We reply within two business days, Monday to Friday. Include your store URL, the page where you see the problem, and a screenshot if you can.</p>
+  
+  
+</main></div>
+<footer><div class="wrap">Anvil theme v1.0.0. Built for Shopify Online Store 2.0.</div></footer>
+</body>
+</html>
